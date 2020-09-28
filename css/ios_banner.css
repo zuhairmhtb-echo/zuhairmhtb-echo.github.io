@@ -1,0 +1,104 @@
+.ios-pwa-install-banner {
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    z-index: 2;
+    display: none;
+    opacity: 0;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+
+}
+.is-ipad .ios-pwa-install-banner {
+    bottom: unset;
+    left: unset;
+    right: 0;
+    top: 20px;
+    max-width: 300px;
+}
+.is-ios-web-app .ios-pwa-install-banner {
+    display: block;
+}
+.is-ios-web-app-show.is-ios-web-app .ios-pwa-install-banner {
+    -webkit-transition: opacity 100ms linear;
+    -moz-transition: opacity 100ms linear;
+    -ms-transition: opacity 100ms linear;
+    -o-transition: opacity 100ms linear;
+     opacity: 0.98;
+}
+.ios-pwa-install-banner .wrapper {
+    width: 100%;
+    position: relative;
+}
+.ios-pwa-install-banner-content {
+    width: 100%;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 10px 10px;
+}
+.ios-pwa-install-banner-arrow {
+    display: block;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    bottom: -3px;
+    left: 49%;
+    transform: rotate(-45deg) translateX(-50%);
+    background-color: #f0f0f0;
+}
+.is-ipad .ios-pwa-install-banner-arrow {
+    bottom: unset;
+    top: -18px;
+    left: 61%;
+}
+.ios-pwa-install-banner-icon {
+    width: 10%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+}
+.ios-pwa-install-banner-icon span {
+    margin: auto auto auto 0;
+    background-color: #696969;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ios-pwa-install-banner-icon svg {
+    width: 20px;
+    height: 20px;
+    margin: auto auto;
+    fill: #fff;
+    color: #fff;
+}
+.ios-pwa-install-banner-text {
+    font-size: 14px;
+    color: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    margin-left: 10px;
+}
+.ios-pwa-install-banner-text img {
+    display: inline;
+    width: 20px;
+    height: auto;
+    position: relative;
+    top: 3px;
+}
+@media all and (orientation: landscape) and (min-width: 570px) {
+    .ios-pwa-install-banner {
+        bottom: unset;
+        left: unset;
+        right: 0;
+        top: 20px;
+        max-width: 300px;
+    }
+    .ios-pwa-install-banner-arrow {
+        bottom: unset;
+        top: -18px;
+        left: 61%;
+    }
+}
