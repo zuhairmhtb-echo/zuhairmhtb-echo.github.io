@@ -1,6 +1,6 @@
 {
-    "name": "Food Ninja",
-    "short_name": "Ninja",
+    "name": "Espares PWA",
+    "short_name": "eSpares",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#FFE9D2",

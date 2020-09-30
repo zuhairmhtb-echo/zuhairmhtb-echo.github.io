@@ -1,4 +1,4 @@
-const version_number = 'v3'; // Change this version number everytime a file is updated so that the install event gets triggered in the client side and updated changes are re-cached
+const version_number = 'v4'; // Change this version number everytime a file is updated so that the install event gets triggered in the client side and updated changes are re-cached
 const staticCacheName = 'site-static-' + version_number; // Name of cache where the static files will be stored
 const dynamicCacheName = 'site-dynamic-' + version_number; // Name of the cache where the dynamic files (e.g. pages navigated by user) will be stored
 const assets = [
