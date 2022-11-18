@@ -1017,3 +1017,7 @@ button {
 html body div.header_section div.header_main {
     background-color: #000 !important;
 }
+
+html body div.services_section div.container h1.services_taital {
+    color: #929292;
+}
