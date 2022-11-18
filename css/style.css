@@ -1013,3 +1013,7 @@ button {
 .copyright_text a:hover {
     color: #e27141;
 }
+
+html body div.header_section div.header_main {
+    background-color: #000 !important;
+}
